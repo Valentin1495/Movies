@@ -51,7 +51,7 @@
   /* TypewriterEffect.css */
 
   .typewriter-cursor {
-    @apply text-6xl text-neutral-500;
+    @apply text-3xl sm:text-6xl text-neutral-500;
     animation: blink-caret 0.75s step-end infinite; /* Create a blinking cursor effect */
   }
 
@@ -67,10 +67,14 @@
   }
 
   .hero-link {
-    @apply text-neutral-400 inline-block hover:text-black hover:scale-110 transition-all uppercase;
+    @apply text-neutral-400 inline-block text-sm sm:text-base hover:text-black hover:scale-110 transition-all uppercase;
   }
 
   .layout-width {
     @apply max-w-md sm:max-w-4xl mx-auto px-3 sm:px-10;
+  }
+
+  .title {
+    @apply absolute top-[68px] sm:top-24 text-lg sm:text-xl uppercase tracking-[6px] sm:tracking-[10px] font-bold;
   }
 }

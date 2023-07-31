@@ -13,7 +13,7 @@ export default function TypewriterEffect() {
         ],
         autoStart: true,
         loop: true,
-        wrapperClassName: 'text-5xl md:text-6xl font-bold text-neutral-500',
+        wrapperClassName: 'text-3xl sm:text-6xl font-bold text-neutral-500',
         cursorClassName: 'typewriter-cursor',
       }}
     />

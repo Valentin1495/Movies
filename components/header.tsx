@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 export default function Header() {
   return (
-    <div className='z-10 px-3 sm:px-10 fixed top-0 inset-x-0 py-2.5 sm:py-5 flex justify-between items-center overflow-x-hidden'>
+    <div className='z-20 px-3 sm:px-10 fixed top-0 inset-x-0 py-2.5 sm:py-5 flex justify-between items-center overflow-x-hidden'>
       <motion.div
         initial={{
           x: -500,
@@ -38,8 +38,8 @@ export default function Header() {
         <SocialLink href='mailto:valentink1495@gmail.com'>
           <MailIcon />
         </SocialLink>
-        <p className='hidden sm:block text-neutral-600 font-medium'>
-          Get in touch
+        <p className='hidden sm:block uppercase text-neutral-600 text-sm font-bold'>
+          get in touch
         </p>
       </motion.div>
     </div>

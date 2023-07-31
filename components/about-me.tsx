@@ -14,7 +14,7 @@ export default function AboutMe() {
         className='text-neutral-600 text-sm sm:text-base'
       >
         <h2>
-          🔥 <span className='font-bold text-black'>열정</span>
+          🔥 <span className='font-bold text-neutral-700'>열정</span>
         </h2>
         <p className='mt-1 leading-relaxed sm:leading-normal pl-[25px]'>
           프론트엔드 개발에 진정한 열정을 갖고 있으며, 웹 인터페이스로 최고의
@@ -23,7 +23,7 @@ export default function AboutMe() {
         </p>
         <br />
         <h2>
-          🤝 <span className='font-bold text-black'>협업과 소통</span>
+          🤝 <span className='font-bold text-neutral-700'>협업과 소통</span>
         </h2>
         <p className='mt-1 leading-relaxed sm:leading-normal pl-[25px]'>
           팀원들과의 원활한 소통과 협업을 즐기며, 서로를 존중하고 배려하는 문화
@@ -31,7 +31,7 @@ export default function AboutMe() {
         </p>
         <br />
         <h2>
-          🚀 <span className='font-bold text-black'>성장과 발전</span>
+          🚀 <span className='font-bold text-neutral-700'>성장과 발전</span>
         </h2>
         <p className='mt-1 leading-relaxed sm:leading-normal pl-[25px]'>
           빠르게 변화하는 웹 개발 분야에서 최신 기술을 습득하고 개인적인

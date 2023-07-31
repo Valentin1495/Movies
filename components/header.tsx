@@ -1,7 +1,7 @@
 'use client';
 
-import { InstagramIcon, MailIcon, TwitterIcon } from './Icons';
-import SocialLink from './SocialLink';
+import { InstagramIcon, MailIcon, TwitterIcon } from './icons';
+import SocialLink from './social-link';
 import { motion } from 'framer-motion';
 
 export default function Header() {

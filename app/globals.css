@@ -47,4 +47,22 @@
         #fec66d 100%
       );
   }
+
+  /* TypewriterEffect.css */
+
+  .typewriter-cursor {
+    @apply text-xl text-neutral-400;
+    animation: blink-caret 0.75s step-end infinite; /* Create a blinking cursor effect */
+  }
+
+  /* Create the blinking cursor animation */
+  @keyframes blink-caret {
+    from,
+    to {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
 }

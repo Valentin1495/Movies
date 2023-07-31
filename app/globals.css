@@ -69,4 +69,8 @@
   .hero-link {
     @apply text-neutral-400 inline-block hover:text-black hover:scale-110 transition-all uppercase;
   }
+
+  .layout-width {
+    @apply max-w-md sm:max-w-4xl mx-auto px-3 sm:px-10;
+  }
 }

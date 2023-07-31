@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <div className='relative flex justify-center mt-40 sm:px-10'>
+    <div className='relative flex justify-center pt-52 h-screen'>
       <div className='gap-y-5 flex flex-col items-center'>
         <div className='relative mx-auto h-40 w-40 rounded-full overflow-hidden'>
           <Image

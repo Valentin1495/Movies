@@ -16,9 +16,9 @@ export default function BackgroundCircle() {
       transition={{
         duration: 2.5,
       }}
-      className='absolute top-1/2 -translate-y-1/2 -mt-40'
+      className='absolute top-10'
     >
-      <div className='w-[300px] h-[300px] rounded-full border border-neutral-400'></div>
+      <div className='w-[250px] h-[250px] rounded-full border border-neutral-400'></div>
     </motion.div>
   );
 }

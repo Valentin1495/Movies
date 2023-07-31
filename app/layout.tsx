@@ -1,4 +1,3 @@
-import Header from '@/components/header';
 import './globals.css';
 import type { Metadata } from 'next';
 
@@ -14,10 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className='max-w-md sm:max-w-4xl mx-auto'>
-        <Header />
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

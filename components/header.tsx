@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 export default function Header() {
   return (
-    <header className='sticky top-0 py-2.5 sm:px-10 sm:py-5 flex justify-between items-center'>
+    <div className='bg-white shadow-md px-3 sm:px-10 z-10 fixed top-0 inset-x-0 py-2.5 sm:py-5 flex justify-between items-center'>
       <motion.div
         initial={{
           x: -500,
@@ -42,6 +42,6 @@ export default function Header() {
           Get in touch
         </p>
       </motion.div>
-    </header>
+    </div>
   );
 }

@@ -8,12 +8,12 @@ export default function TypewriterEffect() {
       options={{
         strings: [
           "Hey, I'm Noah.",
-          'Guy who loves coffee.',
-          'But loves to code more.',
+          'Guy who loves coffee,',
+          'but loves to code more.',
         ],
         autoStart: true,
         loop: true,
-        wrapperClassName: 'text-xl font-bold text-neutral-400',
+        wrapperClassName: 'text-5xl md:text-6xl font-bold text-neutral-500',
         cursorClassName: 'typewriter-cursor',
       }}
     />

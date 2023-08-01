@@ -5,7 +5,7 @@ import AnimatedImg from './animated-img';
 
 export default function AboutMe() {
   return (
-    <div className='pt-20 layout-width sm:mt-2 absolute top-1/2 -translate-y-1/2 flex flex-col items-center sm:items-start sm:flex-row gap-y-5 sm:gap-x-5'>
+    <div className='layout-width space-y-5 absolute top-[20%] md:top-1/4 left-1/2 -translate-x-1/2 w-full flex flex-col sm:flex-row items-center sm:items-start gap-y-5 sm:gap-x-5'>
       <AnimatedImg />
       <motion.section
         initial={{ opacity: 0 }}

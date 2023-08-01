@@ -1,4 +1,5 @@
 'use client';
+
 import { motion } from 'framer-motion';
 
 import Image from 'next/image';
@@ -19,7 +20,7 @@ export default function Project({
   description,
 }: Props) {
   return (
-    <div className='flex flex-col items-center justify-center gap-y-5 w-full snap-start flex-shrink-0 px-3 sm:px-10'>
+    <div className='flex flex-col items-center justify-center gap-y-5 w-full snap-center flex-shrink-0 px-3 sm:px-10'>
       <motion.section
         initial={{
           opacity: 0,

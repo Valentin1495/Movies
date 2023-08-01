@@ -17,7 +17,7 @@ export default function Hero() {
             className='object-cover'
           />
         </div>
-        <h1 className='uppercase text-xs sm:text-sm font-bold tracking-[10px] text-neutral-500'>
+        <h1 className='uppercase text-xs sm:text-sm font-bold tracking-[10px] sm:tracking-[15px] text-neutral-500'>
           frontend developer
         </h1>
         <TypewriterEffect />

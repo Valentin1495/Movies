@@ -75,14 +75,22 @@
   }
 
   .title {
-    @apply absolute top-[68px] sm:top-24 text-lg sm:text-2xl uppercase tracking-[6px] sm:tracking-[10px] font-bold;
+    @apply absolute w-full text-center top-[68px] sm:top-24 text-lg sm:text-2xl uppercase tracking-[6px] sm:tracking-[10px] font-bold;
   }
 
   .vertical-scrollbar {
-    @apply scrollbar scrollbar-w-3 scrollbar-track-white scrollbar-thumb-sky-200/60;
+    @apply scrollbar scrollbar-w-3 scrollbar-track-neutral-200 scrollbar-thumb-sky-200/60;
   }
 
   .horizontal-scrollbar {
-    @apply scrollbar scrollbar-h-3 scrollbar-track-white scrollbar-thumb-sky-200/60;
+    @apply scrollbar scrollbar-h-3 scrollbar-track-neutral-200 scrollbar-thumb-sky-200/60;
+  }
+
+  .section-container {
+    @apply h-screen relative;
+  }
+
+  .skill-icon {
+    @apply w-20 h-20;
   }
 }

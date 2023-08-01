@@ -2,24 +2,29 @@ import About from '@/components/about';
 import Header from '@/components/header';
 import Hero from '@/components/hero';
 import Projects from '@/components/projects';
+import Skills from '@/components/skills';
 
 export default function Home() {
   return (
-    <div>
+    <main>
       <Header />
-      <main className='snap-y snap-mandatory overflow-y-auto h-screen vertical-scrollbar'>
-        <section id='hero' className='snap-center'>
+      <div className='snap-y snap-mandatory overflow-y-auto h-screen vertical-scrollbar'>
+        <div id='hero' className='snap-center'>
           <Hero />
-        </section>
+        </div>
 
-        <section id='about' className='snap-center'>
+        <div id='about' className='snap-center'>
           <About />
-        </section>
+        </div>
 
-        <section id='projects' className='snap-center'>
+        <div id='skills' className='snap-center'>
+          <Skills />
+        </div>
+
+        <div id='projects' className='snap-center'>
           <Projects />
-        </section>
-      </main>
-    </div>
+        </div>
+      </div>
+    </main>
   );
 }

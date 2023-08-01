@@ -17,7 +17,7 @@ export default function AnimatedImg() {
       transition={{
         duration: 1.2,
       }}
-      className='relative h-[272px] w-[202px] sm:w-72 sm:h-96 flex-shrink-0'
+      className='relative h-44 w-44 sm:w-72 sm:h-96 rounded-full sm:rounded-md overflow-hidden flex-shrink-0 mt-5'
     >
       <Image
         src={'/avatar-2.jpeg'}
@@ -25,7 +25,7 @@ export default function AnimatedImg() {
         fill
         priority
         sizes='100%'
-        className='object-contain rounded-md'
+        className='object-cover'
       />
     </motion.div>
   );

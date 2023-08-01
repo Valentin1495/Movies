@@ -33,12 +33,12 @@ export default function Header() {
             duration: 1.5,
           },
         }}
-        className='flex items-center gap-x-1.5'
+        className='sm:flex items-center gap-x-1.5 mr-3 sm:mr-0'
       >
         <SocialLink href='mailto:valentink1495@gmail.com'>
           <MailIcon />
         </SocialLink>
-        <p className='hidden sm:block uppercase text-neutral-500 text-sm font-bold'>
+        <p className='hidden sm:block uppercase animate-pulse text-neutral-500 text-sm font-bold'>
           get in touch
         </p>
       </motion.div>

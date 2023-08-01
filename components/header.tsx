@@ -38,7 +38,7 @@ export default function Header() {
         <SocialLink href='mailto:valentink1495@gmail.com'>
           <MailIcon />
         </SocialLink>
-        <p className='hidden sm:block uppercase text-neutral-600 text-sm font-bold'>
+        <p className='hidden sm:block uppercase text-neutral-500 text-sm font-bold'>
           get in touch
         </p>
       </motion.div>

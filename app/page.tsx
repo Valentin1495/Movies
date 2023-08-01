@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <main className='snap-y snap-mandatory overflow-y-auto h-screen'>
+      <main className='snap-y snap-mandatory overflow-y-auto h-screen vertical-scrollbar'>
         <section id='hero' className='snap-center'>
           <Hero />
         </section>

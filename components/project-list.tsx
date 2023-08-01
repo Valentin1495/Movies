@@ -19,15 +19,15 @@ export default function ProjectList() {
     },
   ];
   return (
-    <div className=''>
-      <div className='z-10 absolute flex left-1/2 -translate-x-1/2 snap-x snap-mandatory overflow-x-auto w-full h-full'>
+    <div>
+      <div className='z-10 absolute flex left-1/2 -translate-x-1/2 snap-x snap-mandatory overflow-x-auto w-full h-full horizontal-scrollbar'>
         {projects.map((project, idx) => {
           const newProject = { ...project, idx };
           return <Project {...newProject} key={idx} />;
         })}
       </div>
 
-      <div className='absolute top-[30%] left-0 bg-sky-100 -skew-y-12 w-full h-[350px]'></div>
+      <div className='absolute top-[30%] left-0 bg-sky-100/80 -skew-y-12 w-full h-[350px]'></div>
     </div>
   );
 }

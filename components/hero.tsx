@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <div className='relative flex justify-center pt-52 h-screen layout-width'>
+    <div className='relative flex justify-center pt-52 h-screen overflow-x-hidden layout-width'>
       <div className='gap-y-5 flex flex-col items-center'>
         <div className='relative h-36 w-36 sm:h-40 sm:w-40 rounded-full overflow-hidden'>
           <Image
@@ -17,7 +17,7 @@ export default function Hero() {
             className='object-cover'
           />
         </div>
-        <h1 className='uppercase text-xs sm:text-sm font-bold tracking-[10px] sm:tracking-[15px] text-neutral-500'>
+        <h1 className='uppercase text-xs sm:text-sm font-bold tracking-[8px] sm:tracking-[15px] text-neutral-500'>
           frontend developer
         </h1>
         <TypewriterEffect />

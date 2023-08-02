@@ -27,7 +27,10 @@ export default function ProjectList() {
         })}
       </div>
 
-      <div className='absolute top-[30%] left-0 bg-sky-100/80 -skew-y-12 w-full h-[350px]'></div>
+      <div
+        className='absolute top-[30%] left-0 bg-sky-100/80 
+      -skew-y-12 w-full h-[350px]'
+      ></div>
     </div>
   );
 }

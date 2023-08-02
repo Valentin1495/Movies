@@ -20,7 +20,7 @@ export default function Project({
   description,
 }: Props) {
   return (
-    <div className='flex flex-col items-center justify-center gap-y-5 w-full snap-center flex-shrink-0 px-3 sm:px-10'>
+    <div className='flex flex-col items-center justify-center pt-20 sm:pt-0 lg:-mt-20 gap-y-5 w-full snap-center flex-shrink-0 px-2 sm:px-14 lg:px-24 xl:px-48'>
       <motion.section
         initial={{
           opacity: 0,
@@ -33,8 +33,9 @@ export default function Project({
         transition={{
           duration: 1.5,
         }}
+        className='relative h-28 md:h-56 aspect-video'
       >
-        <Image src={image} alt='project image' width={222} height={72} />
+        <Image src={image} alt='project image' fill priority sizes='100%' />
       </motion.section>
 
       <motion.section

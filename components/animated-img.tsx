@@ -17,7 +17,7 @@ export default function AnimatedImg() {
       transition={{
         duration: 1.2,
       }}
-      className='relative h-44 w-44 sm:w-72 sm:h-96 rounded-full sm:rounded-md overflow-hidden flex-shrink-0 mt-5'
+      className='relative h-44 w-44 sm:w-72 sm:h-96 rounded-full sm:rounded-md overflow-hidden flex-shrink-0'
     >
       <Image
         src={'/avatar-2.jpeg'}

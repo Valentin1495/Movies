@@ -20,7 +20,7 @@ export default function Project({
   description,
 }: Props) {
   return (
-    <div className='flex flex-col items-center justify-center pt-20 sm:pt-0 lg:-mt-20 gap-y-5 w-full snap-center flex-shrink-0 px-2 sm:px-14 lg:px-24 xl:px-48'>
+    <div className='flex flex-col items-center justify-center pt-20 sm:pt-0 sm:mt-28 md:mt-36 gap-y-5 w-full snap-center flex-shrink-0 px-2 sm:px-14 lg:px-24 xl:px-48'>
       <motion.section
         initial={{
           opacity: 0,

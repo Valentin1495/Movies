@@ -1,34 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Noah Han's Portfolio
 
-## Getting Started
+Welcome to my portfolio website! This website showcases my projects, skills, and experiences as a frontend developer. It is built using Next.js and Framer Motion and showcases my dedication to creating visually appealing and functional applications.
 
-First, run the development server:
+환영해요! 🥳 이 사이트는 저의 프론트엔드 개발 프로젝트, 기술 및 경험을 소개하는 공간이에요. Next.js 13과 Framer Motion을 사용하여 개발했으며, 최신 기술을 활용하여 시각적으로 매력적이고 직관적인 애플리케이션을 만드는 저의 열정을 담았어요.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Demo](#demo)
+- [Features](#features)
+- [Technologies](#technologies)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Check out the live demo at [here](https://portfolio-valentin-104.vercel.app).
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- An about me section to provide a brief introduction and background.  
+  간단한 소개 및 배경을 제공하는 소개 섹션.
+- A skills section to highlight my technical abilities and expertise.  
+  기술적 능력과 전문성을 강조하는 기술 섹션.
+- A projects section to showcase my frontend development projects.  
+  프론트엔드 개발 프로젝트를 소개하는 프로젝트 섹션.
+- Responsive design for optimal viewing on various devices.  
+  다양한 디바이스에서 최적의 화면을 보장하는 반응형 디자인.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- TypeScript
+- React
+- Next.js
+- Tailwind CSS
+- Framer Motion
+- tailwind-scrollbar
+- typewriter-effect

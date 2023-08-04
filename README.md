@@ -12,7 +12,7 @@ Welcome to my portfolio website! 🥳 This website showcases my projects, skills
 
 ## Demo
 
-Check out the live demo [here](https://portfolio-valentin-104.vercel.app).
+Check out the live demo [here](https://noahhan.vercel.app).
 
 ## Features
 

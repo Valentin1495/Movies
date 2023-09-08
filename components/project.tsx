@@ -33,7 +33,7 @@ export default function Project({
         transition={{
           duration: 1.5,
         }}
-        className='relative h-28 md:h-56 aspect-video'
+        className='relative h-28 md:h-56 aspect-video rounded-xl overflow-hidden'
       >
         <Image src={image} alt='project image' fill priority sizes='100%' />
       </motion.section>

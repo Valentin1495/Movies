@@ -8,7 +8,7 @@ export default function ProjectList() {
         'https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg',
       href: 'https://news.noahhan.vercel.app',
       description:
-        'Google News 앱을 이용했던 경험을 바탕으로 만든 개인 프로젝트입니다. Next.js 13의 app router 안에 server component를 사용하여, 실시간으로 업데이트되는 뉴스를 카테고리별로 제공합니다. 또한 검색을 통해 기사를 찾아볼 수도 있는데, 이는 React Query와 client component를 활용해 무한 스크롤 UI로 구현하였습니다. Tailwind CSS의 반응형 디자인을 통해, 모든 디바이스에서 시각적으로 깔끔하도록 만들었습니다. NextAuth.js로 OAuth를 처리하고, 데이터베이스를 위해 Firebase를 연동함으로써, 사용자가 원하는 뉴스 기사를 저장할 수 있도록 하였습니다.',
+        'Next.js의 server component와 New York Times API를 활용하여, 실시간으로 업데이트되는 뉴스를 카테고리별로 제공합니다. 또한 검색을 통해 기사를 찾아볼 수도 있는데, 이는 React Query와 client component를 활용해 무한 스크롤 UI로 구현하였습니다. NextAuth.js로 OAuth를 처리하고, 데이터베이스를 위해 Firebase를 연동함으로써, 사용자가 원하는 뉴스 기사를 저장할 수 있도록 하였습니다.',
     },
     {
       name: 'TravelGPT',

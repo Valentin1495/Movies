@@ -1,4 +1,4 @@
-# Noah Han's Portfolio
+# Noah's Portfolio
 
 Welcome to my portfolio website! 🥳 This website showcases my projects, skills, and experiences as a frontend developer. It is built using Next.js and Framer Motion and showcases my dedication to creating visually appealing and functional applications.
 
@@ -15,7 +15,7 @@ Welcome to my portfolio website! 🥳 This website showcases my projects, skills
 - Responsive design for optimal viewing on various devices.  
   다양한 디바이스에서 최적의 화면을 보장하는 반응형 디자인.
 
-## Technologies
+## Built with
 
 - TypeScript
 - React

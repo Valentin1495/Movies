@@ -3,6 +3,7 @@
 import {
   CSSIcon,
   FirebaseIcon,
+  GoogleIcon,
   HTMLIcon,
   JSIcon,
   NextJSIcon,
@@ -10,12 +11,65 @@ import {
   ReactQueryIcon,
   RecoilIcon,
   ReduxIcon,
-  SupabaseIcon,
   TSIcon,
   TailwindIcon,
 } from './icons';
-
 import { motion } from 'framer-motion';
+import SkillIconBtn from './skill-icon-btn';
+
+const skillIcons1 = [
+  {
+    icon: <HTMLIcon />,
+    msg: 'HTML',
+  },
+  {
+    icon: <CSSIcon />,
+    msg: 'CSS',
+  },
+  {
+    icon: <JSIcon />,
+    msg: 'JavaScript',
+  },
+  {
+    icon: <TSIcon />,
+    msg: 'TypeScript',
+  },
+  {
+    icon: <ReactIcon />,
+    msg: 'React',
+  },
+  {
+    icon: <NextJSIcon />,
+    msg: 'Next.js',
+  },
+];
+
+const skillIcons2 = [
+  {
+    icon: <TailwindIcon />,
+    msg: 'Tailwind CSS',
+  },
+  {
+    icon: <ReactQueryIcon />,
+    msg: 'React Query',
+  },
+  {
+    icon: <RecoilIcon />,
+    msg: 'Recoil',
+  },
+  {
+    icon: <ReduxIcon />,
+    msg: 'Redux',
+  },
+  {
+    icon: <FirebaseIcon />,
+    msg: 'Firebase',
+  },
+  {
+    icon: <GoogleIcon />,
+    msg: 'PaLM API',
+  },
+];
 
 export default function SkillIcons() {
   return (
@@ -26,12 +80,9 @@ export default function SkillIcons() {
         transition={{ duration: 1.4 }}
         className='grid grid-cols-3 gap-8'
       >
-        <HTMLIcon className='skill-icon' />
-        <CSSIcon className='skill-icon' />
-        <JSIcon className='skill-icon' />
-        <TSIcon className='skill-icon' />
-        <ReactIcon className='skill-icon' />
-        <NextJSIcon className='skill-icon' />
+        {skillIcons1.map((icon) => (
+          <SkillIconBtn icon={icon.icon} msg={icon.msg} />
+        ))}
       </motion.section>
 
       <motion.section
@@ -40,12 +91,9 @@ export default function SkillIcons() {
         transition={{ duration: 0.8 }}
         className='grid grid-cols-3 gap-8'
       >
-        <TailwindIcon className='skill-icon' />
-        <ReactQueryIcon className='skill-icon' />
-        <RecoilIcon className='skill-icon' />
-        <ReduxIcon className='skill-icon' />
-        <FirebaseIcon className='skill-icon' />
-        <SupabaseIcon className='skill-icon' />
+        {skillIcons2.map((icon) => (
+          <SkillIconBtn icon={icon.icon} msg={icon.msg} />
+        ))}
       </motion.section>
     </div>
   );

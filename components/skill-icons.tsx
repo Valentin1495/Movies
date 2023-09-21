@@ -81,7 +81,7 @@ export default function SkillIcons() {
         className='grid grid-cols-3 gap-8'
       >
         {skillIcons1.map((icon) => (
-          <SkillIconBtn icon={icon.icon} msg={icon.msg} />
+          <SkillIconBtn key={icon.msg} icon={icon.icon} msg={icon.msg} />
         ))}
       </motion.section>
 
@@ -92,7 +92,7 @@ export default function SkillIcons() {
         className='grid grid-cols-3 gap-8'
       >
         {skillIcons2.map((icon) => (
-          <SkillIconBtn icon={icon.icon} msg={icon.msg} />
+          <SkillIconBtn key={icon.msg} icon={icon.icon} msg={icon.msg} />
         ))}
       </motion.section>
     </div>

@@ -4,14 +4,10 @@
 
 ## Features
 
-- An about me section to provide a brief introduction and background.  
-  간단한 소개 및 배경을 제공하는 소개 섹션.
-- A skills section to highlight my technical abilities and expertise.  
-  기술적 능력과 전문성을 강조하는 기술 섹션.
-- A projects section to showcase my frontend development projects.  
-  프론트엔드 개발 프로젝트를 소개하는 프로젝트 섹션.
-- Responsive design for optimal viewing on various devices.  
-  다양한 디바이스에서 최적의 화면을 보장하는 반응형 디자인.
+- 간단한 소개 및 배경을 제공하는 소개 섹션
+- 기술적 능력과 전문성을 강조하는 기술 섹션
+- 프론트엔드 개발 프로젝트를 소개하는 프로젝트 섹션
+- 다양한 디바이스에서 최적의 화면을 보장하는 반응형 디자인
 
 ## Built with
 

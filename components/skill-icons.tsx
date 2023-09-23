@@ -67,7 +67,7 @@ const skillIcons2 = [
   },
   {
     icon: <GoogleIcon />,
-    msg: 'PaLM API',
+    msg: 'PaLM API (Google’s large language models)',
   },
 ];
 
